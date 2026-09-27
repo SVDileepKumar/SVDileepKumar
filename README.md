@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f1729,25:1e3c72,60:2a5298,100:3d6fc9&height=260&section=header&text=Dilleep%20Kumaar&fontSize=56&fontColor=ffffff&fontAlignY=34&desc=Staff%20Software%20Engineer%20%40%20Walmart%20%C2%B7%20CyberSecurity%20%2B%20GenAI&descAlignY=52&descSize=19&animation=fadeIn" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0e1a,20:0f1729,50:1e3c72,80:2a5298,100:3d6fc9&height=280&section=header&text=Dilleep%20Kumaar&fontSize=58&fontColor=ffffff&fontAlignY=32&desc=Staff%20Software%20Engineer%20%40%20Walmart%20%C2%B7%20CyberSecurity%20%2B%20GenAI&descAlignY=50&descSize=19&animation=fadeIn" width="100%"/>
 
 <a href="https://www.linkedin.com/in/svdileepkumar/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="mailto:s.venkatadileepkumar@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
@@ -15,15 +15,41 @@
 
 *"I like taking a system from **doesn't exist yet** to **production** — and doing it fast."*
 
+<br/>
+
+<a href="#-what-im-doing-now">What I'm Doing</a> ·
+<a href="#-highlights">Highlights</a> ·
+<a href="#-tech-stack">Tech Stack</a> ·
+<a href="#%EF%B8%8F-featured-projects">Projects</a> ·
+<a href="#-github-stats">Stats</a> ·
+<a href="#-contribution-snake">Activity</a> ·
+<a href="#-education--certifications">Education</a>
+
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f1729,100:3d6fc9&height=3&section=header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f1729,50:2a5298,100:3d6fc9&height=4&section=header" width="100%"/>
 
 ## 🚀 What I'm Doing Now
 
 At **Walmart** (InfoSec Security Services) I build security products at Walmart's scale — a **multi-agent AI orchestrator** (11 specialist agents, hub-spoke architecture), and an **AI/LLM inventory system** scanning up to **2 million endpoint devices** across Windows, Linux & Mac for banned models, extensions, and providers in as little as 2–3 seconds a device. I've published 30+ AI agents to the internal Walmart Marketplace, and led a 7-project portfolio as tech lead for the InfoSec-Dev team, mentoring 4 developers through the full SDLC.
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f1729,100:3d6fc9&height=3&section=header" width="100%"/>
+<details>
+<summary><b>🔎 Selected systems I've built at Walmart</b></summary>
+<br/>
+
+| System | What it does | Stack |
+|---|---|---|
+| **Wolf** (Walmart Online Facilitator) | End-to-end lifecycle management of P0/P1 vulnerabilities, event creation to closure | Spring Boot, Java, Azure SQL |
+| **Xposur** | Blast-radius analysis for a vulnerability across integrated data sources | Azure Storage, Spring Boot, Java |
+| **RASCE** | Automates control attestation & centralizes evidence collection — 0→production in one quarter | Java, Azure SQL, Spring, WCNP, Snyk, BigQuery |
+| **CertBit** | Certificate lifecycle management across Balabit, F5, Cisco ISE devices | Java, Spring |
+| **DieselX** | Rules engine automating vulnerability-ownership assignment | Java, Spring |
+| **IDA Data Migrator** | Event-driven pipeline moving 50M+ records, Azure SQL → BigQuery, in under 10 minutes | PySpark, SQL, B+ tree indexing |
+| **FWaaS** | Automates firewall rule updates via Panorama REST API on dynamic IP changes | REST APIs |
+
+</details>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f1729,50:2a5298,100:3d6fc9&height=4&section=header" width="100%"/>
 
 ## 🏆 Highlights
 
@@ -56,33 +82,42 @@ Full SDLC ownership, idea → product
 </tr>
 </table>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f1729,100:3d6fc9&height=3&section=header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f1729,50:2a5298,100:3d6fc9&height=4&section=header" width="100%"/>
 
 ## 🧰 Tech Stack
 
 **Languages**
 <img src="https://skillicons.dev/icons?i=python,java,go,js,ts,html,css,kotlin&theme=dark"/>
+<img src="https://img.shields.io/badge/SQL-2C3E67?style=for-the-badge&logo=postgresql&logoColor=white"/>
 
 **Frameworks & Web**
 <img src="https://skillicons.dev/icons?i=django,spring,fastapi,react&theme=dark"/>
-<img src="https://img.shields.io/badge/Pyramid-1F425F?style=for-the-badge"/> <img src="https://img.shields.io/badge/Struts%202.x-D0362A?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Pyramid-2C3E67?style=for-the-badge"/> <img src="https://img.shields.io/badge/Struts%202.x-2C3E67?style=for-the-badge"/>
 
 **Data, Messaging & Storage**
 <img src="https://skillicons.dev/icons?i=kafka,redis,rabbitmq,mysql,postgresql,mongodb&theme=dark"/>
-<img src="https://img.shields.io/badge/ArangoDB-8B1E1E?style=for-the-badge"/> <img src="https://img.shields.io/badge/NoSQL-4DB33D?style=for-the-badge"/> <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/PySpark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white"/>
+<img src="https://img.shields.io/badge/ArangoDB-0E7C7B?style=for-the-badge"/> <img src="https://img.shields.io/badge/NoSQL-0E7C7B?style=for-the-badge"/> <img src="https://img.shields.io/badge/Pandas-0E7C7B?style=for-the-badge&logo=pandas&logoColor=white"/> <img src="https://img.shields.io/badge/PySpark-0E7C7B?style=for-the-badge&logo=apachespark&logoColor=white"/> <img src="https://img.shields.io/badge/Azure%20SQL-0E7C7B?style=for-the-badge&logo=microsoftazure&logoColor=white"/> <img src="https://img.shields.io/badge/Azure%20Storage-0E7C7B?style=for-the-badge&logo=microsoftazure&logoColor=white"/> <img src="https://img.shields.io/badge/BigQuery-0E7C7B?style=for-the-badge&logo=googlebigquery&logoColor=white"/>
 
 **Cloud & DevOps**
 <img src="https://skillicons.dev/icons?i=azure,aws,gcp,kubernetes,docker,jenkins,git,githubactions,terraform,grafana,linux,bash&theme=dark"/>
-<img src="https://img.shields.io/badge/BigQuery-4285F4?style=for-the-badge&logo=googlebigquery&logoColor=white"/> <img src="https://img.shields.io/badge/AWS%20Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white"/> <img src="https://img.shields.io/badge/CI%2FCD-2496ED?style=for-the-badge"/> <img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white"/>
+<img src="https://img.shields.io/badge/AWS%20Lambda-3F51B5?style=for-the-badge&logo=awslambda&logoColor=white"/> <img src="https://img.shields.io/badge/CI%2FCD-3F51B5?style=for-the-badge"/> <img src="https://img.shields.io/badge/Maven-3F51B5?style=for-the-badge&logo=apachemaven&logoColor=white"/>
 
 **AI / GenAI**
-<img src="https://img.shields.io/badge/GenAI-8A2BE2?style=for-the-badge&logo=openai&logoColor=white"/> <img src="https://img.shields.io/badge/Multi--Agent%20Orchestration-FF6F00?style=for-the-badge"/> <img src="https://img.shields.io/badge/MCP%20Server-00A67E?style=for-the-badge"/> <img src="https://img.shields.io/badge/LLM%20Integration-10A37F?style=for-the-badge"/> <img src="https://img.shields.io/badge/Vibe%20Coding-FF4785?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/GenAI-6C5CE7?style=for-the-badge&logo=openai&logoColor=white"/> <img src="https://img.shields.io/badge/Multi--Agent%20Orchestration-6C5CE7?style=for-the-badge"/> <img src="https://img.shields.io/badge/MCP%20Server-6C5CE7?style=for-the-badge"/> <img src="https://img.shields.io/badge/LLM%20Integration-6C5CE7?style=for-the-badge"/> <img src="https://img.shields.io/badge/Vibe%20Coding-6C5CE7?style=for-the-badge"/>
 
 **Tools & IDEs**
 <img src="https://skillicons.dev/icons?i=androidstudio,idea,vscode&theme=dark"/>
-<img src="https://img.shields.io/badge/Data%20Structures%20%26%20Algorithms-000000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Data%20Structures%20%26%20Algorithms-22272E?style=for-the-badge"/>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f1729,100:3d6fc9&height=3&section=header" width="100%"/>
+<details>
+<summary><b>🏢 Also worked with — enterprise & security tooling</b></summary>
+<br/>
+
+<img src="https://img.shields.io/badge/Snyk-4C4A73?style=for-the-badge&logo=snyk&logoColor=white"/> <img src="https://img.shields.io/badge/JFrog%20Artifactory-4C4A73?style=for-the-badge&logo=jfrog&logoColor=white"/> <img src="https://img.shields.io/badge/Cisco%20ISE-4C4A73?style=for-the-badge&logo=cisco&logoColor=white"/> <img src="https://img.shields.io/badge/F5%20BIG--IP-4C4A73?style=for-the-badge"/> <img src="https://img.shields.io/badge/Amazon%20Lex-4C4A73?style=for-the-badge&logo=amazonaws&logoColor=white"/> <img src="https://img.shields.io/badge/Amazon%20Connect-4C4A73?style=for-the-badge&logo=amazonaws&logoColor=white"/> <img src="https://img.shields.io/badge/ChatOps-4C4A73?style=for-the-badge"/> <img src="https://img.shields.io/badge/WCNP-4C4A73?style=for-the-badge"/>
+
+</details>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f1729,50:2a5298,100:3d6fc9&height=4&section=header" width="100%"/>
 
 ## 🛠️ Featured Projects
 
@@ -117,7 +152,7 @@ Full SDLC ownership, idea → product
 
 > ✍️ Wrote up the resume analyzer build on Medium: [*"Your Resume Was Rejected Before Anyone Read It..."*](https://medium.com/@s.venkatadileepkumar/your-resume-was-rejected-before-anyone-read-it-i-built-an-open-source-tool-to-fix-that-d8373e441b0f)
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f1729,100:3d6fc9&height=3&section=header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f1729,50:2a5298,100:3d6fc9&height=4&section=header" width="100%"/>
 
 ## 📊 GitHub Stats
 
@@ -133,16 +168,15 @@ Full SDLC ownership, idea → product
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f1729,100:3d6fc9&height=3&section=header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f1729,50:2a5298,100:3d6fc9&height=4&section=header" width="100%"/>
 
 ## 🐍 Contribution Snake
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/SVDileepKumar/SVDileepKumar/output/github-contribution-grid-snake-dark.svg" width="100%"/>
-<sub><i>Animates automatically via GitHub Actions — appears after the first workflow run.</i></sub>
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f1729,100:3d6fc9&height=3&section=header" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:0f1729,50:2a5298,100:3d6fc9&height=4&section=header" width="100%"/>
 
 ## 🎓 Education & Certifications
 
@@ -154,7 +188,7 @@ Full SDLC ownership, idea → product
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3d6fc9,60:2a5298,100:0f1729&height=140&section=footer&animation=fadeIn"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3d6fc9,50:2a5298,80:0f1729,100:0a0e1a&height=150&section=footer&animation=fadeIn"/>
 
 <sub>Every number above is real — pulled live from GitHub, or drawn from my resume and LinkedIn.</sub>
 <br/>
